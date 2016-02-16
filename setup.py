@@ -7,12 +7,12 @@ from setuptools import setup
 from setuptools.command.test import test as TestCommand
 
 
-name = 'djangorestframework-oauth'
+name = 'edx-djangorestframework-oauth'
 package = 'rest_framework_oauth'
-description = 'OAuth support for Django REST Framework'
-url = 'https://github.com/jpadilla/django-rest-framework-oauth'
-author = 'José Padilla'
-author_email = 'hello@jpadilla.com'
+description = 'OAuth support for Django REST Framework modified for use by edX'
+url = 'https://github.com/edx/django-rest-framework-oauth/'
+author = 'edX'
+author_email = 'oscm@edx.org'
 license = 'BSD'
 install_requires = [
     line for line in open('requirements.txt').read().split('\n')
